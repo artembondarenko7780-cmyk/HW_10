@@ -1,0 +1,55 @@
+    1  cd
+    2  git config --global user.name "Artem Bondarenko"
+    3  --global user.name "Artem Bondarenko"
+    4  git config --global user.name "Artem Bondarenko"
+    5  git condig user.email artembondarenko7780@gmail.com
+    6  git clone https://github.com/artembondarenko7780-cmyk/HW_10.git
+    7  cd OneDrive/Desktop/HW10/HW10
+    8  ls
+    9  ls
+   10  git status
+   11  touch text_ignore.txt
+   12  git status
+   13  git add
+   14  "git add"
+   15  git add New.txt
+   16  git add text_ignore.txt
+   17  git commit -m New file
+   18  git commit -m "Create new file"
+   19  git rm --cached text_ignore.txt
+   20  git add .gitignore
+   21  git commit -m "Fix gitignore and remove text_ignore.txt"
+   22  git push
+   23  git push
+   24  git status
+   25  touch main_test.txt
+   26  git status
+   27  git add "main_test.txt"
+   28  git status
+   29  git commit -m "створено новий файл"
+   30  git branch -b "develop"
+   31  git branch
+   32  git checkout -b develop
+   33  git brnch
+   34  git branch
+   35  touch develop_test.txt
+   36  git status
+   37  git add develop_test.txt
+   38  git status
+   39  git commit -m "створив новий файл develop_test"
+   40  echo just a small change >> develop_test.txt
+   41  cat develop_test.txt
+   42  git status
+   43  git add develop_test.txt
+   44  git status
+   45  git commit -b "зміна в файлі develop_test.txt"
+   46  git commit -m "зміна в файлі develop_test"
+   47  git checkout main
+   48  git branch
+   49  git merge develop
+   50  git branch
+   51  git status
+   52  git commit
+   53  git log
+   54  git log --oneline --all
+   55  history > command_list.csv
